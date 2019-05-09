@@ -17,7 +17,7 @@ const aims = [
 class App extends Component {
     render() {
         const a = aims.map(function (item, index){
-            return (<Target></Target>)
+            return (<Target name={index}></Target>)
         });
 
         return (
